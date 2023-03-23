@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>#RandomDadJokes</title>
+</head>
+
+<body>
+
+<h2>RandomDadJokes</h2>
+
+#for(joke in jokes):
+  <h1>#(joke.joke)</h1>
+  #endfor
+  
+</body>
+</html>
